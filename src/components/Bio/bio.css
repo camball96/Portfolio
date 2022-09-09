@@ -1,0 +1,49 @@
+.section {
+    height: 80%;
+    width: auto;
+    margin: 0;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSide {
+    width: 50%;
+    height: auto;
+
+}
+
+.rightSide {
+    width: 50%;
+    height: auto;
+    padding: 5%;
+    background-color: rgb(46, 78, 46);
+    border-radius: 5px;
+}
+
+.dp {
+    border-radius: 5px;
+}
+
+.buttonSection {
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.buttonLeft, .buttonRight {
+    width: 50%;
+}
+
+.contactBtn, .resBtn {
+    text-decoration: none;
+    color: rgb(46, 78, 46);
+    padding: 3%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
