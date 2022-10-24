@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.css';
-import videoBg from '../../assets/bgVideo.mp4'
+import videoBg from '../../assets/broll.mp4'
 
 export default function Hero() {
   return (
@@ -11,8 +11,8 @@ export default function Hero() {
             </div>
             <video src={videoBg} autoPlay loop muted/>
             <div className="content">
-                <h3>Welcome to</h3>
-                <h1>Cameron ball</h1>
+                <h3 className='headingIntro'>Welcome to</h3>
+                <h1 className='headingContent'>Cameron Ball's <br/> Landing Page</h1>
             </div>
         </div>
     </div>

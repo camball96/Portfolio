@@ -1,11 +1,23 @@
 import React from 'react'
 import './header.css'
+import linkedin from '../../assets/linkedin.png'
+import github from '../../assets/github.png'
 
 export default function Header() {
   return (
-    <div>
+    <div >
       <div className="header">
-        <h1>Hello World</h1>
+        <div className="left">
+          <h1>Hello World</h1>
+        </div>
+        <div className="right">
+          <a className='logo' href="https://www.linkedin.com/in/cameron-ball-189166193/">
+            <img src={linkedin} width="50px" alt="" />
+          </a>
+          <a className='logo' href="https://github.com/camball96">
+            <img src={github} width="50px" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   )

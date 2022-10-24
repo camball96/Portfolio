@@ -1,9 +1,36 @@
 .header {
-    margin: 0;
-    background-color: red;
+    height: 100px;
+    background-color: rgba(51, 51, 51, 0.445);
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 0 5%;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 50px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    position: sticky;
+    align-items: center;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 1%;
 }
