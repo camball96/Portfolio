@@ -55,9 +55,79 @@
     background-color: white;
     border-radius: 5px;
     text-align: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.contactBtn:hover, .resBtn:hover {
+    background-color: grey;
+    color: white;
 }
 
 .bHeading {
     font-size: 30px;
     font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .section {
+        flex-direction: row;
+        overflow: hidden;
+        padding: 5%;
+
+    }
+}
+@media only screen and (max-width: 1270px) {
+    .section {
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media only screen and (max-width: 1270px) {
+    .leftSide {
+        margin: 0;
+        padding: 5% 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .dp {
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 1270px) {
+    .rightSide {
+        margin-bottom: 5%;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .rightSide {
+        margin-bottom: 5%;
+        padding: 10% 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .resBtn, .contactBtn {
+        padding: 5% 5%;
+    }
 }

@@ -1,0 +1,7 @@
+.mid {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    width: 96%;
+    justify-content: space-around;
+}

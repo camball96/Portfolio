@@ -12,3 +12,26 @@ export const AboutBody = <div>At this stage in my career, I am in search of an o
 
 export const ResumeButton = "My Resume"
 export const ContactButton = "Contact Me"
+
+// Image Boxes
+
+export const Boxes = [
+    {
+        heading: "Tech Skills",
+        body: "A solution focused web developer with a proven track record of developing, deploying, optimising and managing leading-edge websites using current technologies",
+        imgUrl: "../../assets/code.png",
+        className: "leftSideFeature",
+    },
+    {
+        heading: "EQ",
+        body: "Equipped with an exceptional ability to facilitate all aspects of internal and external communication and able to work under strict time sensitive environments.",
+        imgUrl: "../../assets/Brain.png",
+        className: "middleFeature",
+    },
+    {
+        heading: "Passionate",
+        body: "A strong drive to constantly learn more in the development industry. Passionately upskilling to stay ahead with the ongoing release of new tech stacks",
+        imgUrl: "../../assets/passion.png",
+        className: "rightSideFeature",
+    },
+];

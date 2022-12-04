@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Header from './components/Header/Header.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import Bio from './components/Bio/Bio.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import { CssVarsProvider } from '@mui/joy/styles';
+import Mid from './components/Mid/Mid';
+
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className='site'>
       <Header/>
       <Hero/>
+      <Mid />
       <Bio />
       <Footer />
     </div>
