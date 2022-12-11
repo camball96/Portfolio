@@ -13,6 +13,7 @@ video {
 .content {
     width: 100%;
     height: 100%;
+    margin-top: -8%;
     position: absolute;
     top: 0;
     display: flex;
@@ -21,6 +22,7 @@ video {
     padding: 0;
     align-items: center;
     color: white;
+    text-align: center;
 }
 
 .overlay {
@@ -31,5 +33,15 @@ video {
 }
 
 .headingIntro {
+    margin-bottom: 0;
+}
 
+.headingContent {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin-top: -20%;
+    }
 }

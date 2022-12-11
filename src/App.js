@@ -1,19 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header.jsx';
-import Hero from './components/Hero/Hero.jsx';
-import Bio from './components/Bio/Bio.jsx';
-import Footer from './components/Footer/Footer.jsx';
-import { CssVarsProvider } from '@mui/joy/styles';
+import Home from './pages/Home.jsx'
+import Contact from './pages/Contact.jsx'
+import Footer from './components/Footer/Footer';
+import Projects from './pages/Projects';
+
 
 
 function App() {
   return (
     <div className='site'>
-      <Header/>
-      <Hero/>
-      <Bio />
-      <Footer />
+      <BrowserRouter> 
+        <Header/>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/projects' element={<Projects /> } />
+          <Route path='contact' element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

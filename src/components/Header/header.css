@@ -1,19 +1,25 @@
 .header {
     height: 100px;
+    width: 100%;
     background-color: rgba(51, 51, 51, 0.445);
     display: flex;
     flex-direction: row;
-    width: auto;
+    
     padding: 0 5%;
     overflow: hidden;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 55;
 }
 
 h1 {
     color: white;
     font-size: 50px;
+}
+.brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .left {
@@ -21,6 +27,12 @@ h1 {
     display: flex;
     justify-content: start;
     position: sticky;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 

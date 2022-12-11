@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import bioPic from '../../assets/bio.jpg'
 import './bio.css'
-import { AboutHeading, AboutBody, ResumeButton, ContactButton } from '../../utils/Utils';
+import { AboutHeading, AboutBody } from '../../utils/Utils';
 import BioInfo from './BioInfo';
 import bgBio from '../../assets/t5.png'
 import Resume from '../../assets/resume.pdf'
-
 
 export default function Bio(props) {
     return (
@@ -18,10 +17,10 @@ export default function Bio(props) {
                         </div>
                     </div>
                     <div className="rightSide">
-                        <BioInfo aboutBody={AboutBody} aboutHeading={AboutHeading} />
+                        <BioInfo aboutBody={AboutBody} aboutHeading={AboutHeading} cname="bHeading" bname = "bodyText" />
                         <div className="buttonSection">
                             <div className="buttonLeft">
-                                <a className='contactBtn' href="#">Contact Me</a>
+                                <a className='contactBtn' href="mailto:cam@theconceptlab.com.au">Contact Me</a>
                             </div>
                             <div className="buttonRight">
                                 <a className='resBtn' href={Resume}>My Resume</a>

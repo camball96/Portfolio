@@ -1,0 +1,15 @@
+.navLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 25px;
+    margin: 0 3%;
+}
+
+.navLink:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: var(--purple)
+}
