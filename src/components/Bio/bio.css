@@ -26,7 +26,7 @@
     width: 50%;
     height: auto;
     padding: 5%;
-    background-color: rgb(46, 78, 46);
+    background-color: var(--purple);
     border-radius: 5px;
     z-index: 1;
 }
@@ -42,6 +42,7 @@
     display: flex;
     flex-direction: row;
     
+
 }
 
 .buttonLeft, .buttonRight {
@@ -50,8 +51,10 @@
 
 .contactBtn, .resBtn {
     text-decoration: none;
-    color: rgb(46, 78, 46);
+    border: none;
+    color: var(--purple);
     padding: 3%;
+    font-size: 16px;
     background-color: white;
     border-radius: 5px;
     text-align: center;
@@ -60,7 +63,7 @@
 }
 
 .contactBtn:hover, .resBtn:hover {
-    background-color: grey;
+    background-color: #7f8c8d;
     color: white;
 }
 

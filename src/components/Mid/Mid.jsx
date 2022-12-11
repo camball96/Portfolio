@@ -1,20 +1,21 @@
 import React from 'react'
-import Card from '../../Card/Card.jsx'
-import Brain from '../../assets/Brain.png'
-import Code from '../../assets/code.png'
-import Passion from '../../assets/passion.png'
-import { Boxes } from "../../utils/Utils.jsx";
+import Card from '../Card/Card'
+
+import { boxes } from "../../utils/Utils.js"
+
+
 import './mid.css'
 
 
-const imgs = [Brain, Passion, Code];
+function createCard(x) {
+    return(
+    <Card className key={x.id} heading={x.heading} body={x.body} img={x.imgUrl} />
+)}
 
-export default function Mid(props) {
+export default function Mid() {
     return (
         <div className='mid'>
-            <Card />
-            <Card />
-            <Card />
+            {boxes.map(createCard)}
         </div>
     )
 }

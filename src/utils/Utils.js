@@ -15,23 +15,65 @@ export const ContactButton = "Contact Me"
 
 // Image Boxes
 
-export const Boxes = [
+export const boxes = [
     {
+        id: 1,
         heading: "Tech Skills",
         body: "A solution focused web developer with a proven track record of developing, deploying, optimising and managing leading-edge websites using current technologies",
-        imgUrl: "../../assets/code.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/2282/2282272.png",
         className: "leftSideFeature",
     },
     {
+        id: 2,
         heading: "EQ",
         body: "Equipped with an exceptional ability to facilitate all aspects of internal and external communication and able to work under strict time sensitive environments.",
-        imgUrl: "../../assets/Brain.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/4206/4206131.png",
         className: "middleFeature",
     },
     {
+        id:3,
         heading: "Passionate",
         body: "A strong drive to constantly learn more in the development industry. Passionately upskilling to stay ahead with the ongoing release of new tech stacks",
-        imgUrl: "../../assets/passion.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/4953/4953099.png",
         className: "rightSideFeature",
     },
 ];
+
+
+// Form Data
+export const formHeadings = [
+    {
+        id:1,
+        label: "Company Name "
+    },
+    {
+        id:1,
+        label: "Your Name"
+    },
+    {
+        id:1,
+        label: "Contact Mobile"
+    },
+    {
+        id:1,
+        label: "Contact Email"
+    }
+];
+
+export const navData = [
+    {
+        id: 1,
+        link: "/",
+        label: "Home"
+    },
+    {
+        id: 2,
+        link: "/projects",
+        label: "Projects"
+    },
+    {
+        id: 3,
+        link: "/contact",
+        label: "Contact"
+    },
+]

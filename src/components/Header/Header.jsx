@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
+import Nav from '../Nav/Nav'
 
 export default function Header() {
   return (
@@ -9,6 +10,9 @@ export default function Header() {
       <div className="header">
         <div className="left">
           <h1 className='brand'>Resume Landing Page</h1>
+        </div>
+        <div className="middle">
+          <Nav />
         </div>
         <div className="right">
           <a className='logo' href="https://www.linkedin.com/in/cameron-ball-189166193/">

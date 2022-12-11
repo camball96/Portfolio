@@ -2,17 +2,18 @@ import React from 'react';
 import './hero.css';
 import videoBg from '../../assets/broll.mp4'
 
-export default function Hero() {
+export default function Hero(props) {
   return (
     <div>
-        <div className="hero">
+        <div className="hero" style={{
+          backgroundImage: `url(${props.bg})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
             <div className="overlay">
                 
             </div>
-            <video src={videoBg} autoPlay loop muted/>
+            <video src={props.video} autoPlay loop muted/>
             <div className="content">
-                <h3 className='headingIntro'>Welcome to</h3>
-                <h1 className='headingContent'>Cameron Ball's <br/> Landing Page</h1>
+                <h3 className='headingIntro'>{props.heading}</h3>
+                <h1 className='headingContent'>{props.subHeading}</h1>
             </div>
         </div>
     </div>

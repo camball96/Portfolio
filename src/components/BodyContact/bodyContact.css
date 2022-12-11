@@ -1,0 +1,45 @@
+.bodyContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background: white;
+    color: black;
+    padding: 0 3%;
+}
+
+.imageLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 4%
+
+}
+
+.bcImage {
+    width: 700px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.infoRight {
+    background: var(--purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.cHeading {
+    font-size: 40px;
+    padding-right: 5%;
+}
+
+.subHeading {
+    font-size: 25px;
+}

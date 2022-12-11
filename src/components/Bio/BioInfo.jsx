@@ -7,14 +7,11 @@ export default function BioInfo(props) {
         <div>
             <div className="info">
                 <div className="bioHeading">
-                    <h1 className="bHeading">
+                    <h1 className={props.cname}>
                         {props.aboutHeading}
                     </h1>
                 </div>
-                <div className="seperator">
-                    {/* Insert seperator here */}
-                </div>
-                <div className="bodyText">
+                <div className= {props.bname}>
                     <p>{props.aboutBody}</p>
                 </div>
             </div>
