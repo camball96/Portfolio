@@ -12,8 +12,8 @@ export default function Hero(props) {
             </div>
             <video src={props.video} autoPlay loop muted/>
             <div className="content">
-                <h3 className='headingIntro'>{props.heading}</h3>
-                <h1 className='headingContent'>{props.subHeading}</h1>
+                <h3 className={props.headingIntro}>{props.heading}</h3>
+                <h1 className={props.headingContent}>{props.subHeading}</h1>
             </div>
         </div>
     </div>

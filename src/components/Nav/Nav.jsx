@@ -8,7 +8,7 @@ import './nav.css';
 
 function Nav() {
     return (
-        <div>
+        <div className='navbar'>
             {navData.map((data) => {return(<Link to={data.link} className="navLink" key={data.id}>{data.label}</Link>)})}
         </div>
 )}

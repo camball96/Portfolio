@@ -1,7 +1,12 @@
+import Brain from '../assets/Brain.png'
+import Passion from '../assets/passion.png'
+import Code from '../assets/code.png'
+
 // Hero Info
 
-export const HeroHeading = <div>Welcome to</div>
-export const HeroAbout = <div>Cameron Ball's <br/> Landing Page</div>
+
+export const HeroHeading = <div>Cameron Ball</div>
+export const HeroAbout = <div>Front End Developer</div>
 
 //Bio Information
 export const AboutHeading = <div> My name is Cameron Ball <br/> and I would like to introduce myself… </div>;
@@ -20,21 +25,21 @@ export const boxes = [
         id: 1,
         heading: "Tech Skills",
         body: "A solution focused web developer with a proven track record of developing, deploying, optimising and managing leading-edge websites using current technologies",
-        imgUrl: "https://cdn-icons-png.flaticon.com/512/2282/2282272.png",
+        imgUrl: `${Code}`,
         className: "leftSideFeature",
     },
     {
         id: 2,
         heading: "EQ",
         body: "Equipped with an exceptional ability to facilitate all aspects of internal and external communication and able to work under strict time sensitive environments.",
-        imgUrl: "https://cdn-icons-png.flaticon.com/512/4206/4206131.png",
+        imgUrl: `${Brain}`,
         className: "middleFeature",
     },
     {
         id:3,
         heading: "Passionate",
         body: "A strong drive to constantly learn more in the development industry. Passionately upskilling to stay ahead with the ongoing release of new tech stacks",
-        imgUrl: "https://cdn-icons-png.flaticon.com/512/4953/4953099.png",
+        imgUrl: `${Passion}`,
         className: "rightSideFeature",
     },
 ];
@@ -60,6 +65,7 @@ export const formHeadings = [
     }
 ];
 
+// Navbar Links
 export const navData = [
     {
         id: 1,
@@ -75,5 +81,39 @@ export const navData = [
         id: 3,
         link: "/contact",
         label: "Contact"
+    },
+]
+
+// About section on contact
+export const aboutBody = "Have a project in mind? Or do you just want to chat about the latest developments in the world of JavaScript, don't hesitate to reach out. I'm always happy to connect with like-minded folks and discuss the latest and greatest in the world of tech. Thanks for stopping by, and I look forward to hearing from you!"
+
+//Info card
+export const infoCardProjectsH1 = "Projects";
+export const infoCardProjectsP = <p>As a JavaScript and React developer, I am passionate about building front-end applications in my free time. I am constantly learning and improving my skills and enjoy tackling challenging projects that push me to grow as a developer. I am eager to continue building my expertise and to bring my knowledge and enthusiasm to a team of like-minded professionals. Have a look below at what I have recently completed.</p>
+
+export const projectCard = [
+    {
+        id: 1,
+        className: 'projectCard',
+        img: `${Passion}`,
+        heading: 'Timebnk',
+        body: <p>A single page React website advertising an app that helps users manage their time in personal and work life. The app features a clean interface and helps users increase productivity. The website offers an overview of the app and a call to action to download it.</p>,
+        btnURL: 'http://www.timebnk.com.au/'
+    },
+    {
+        id: 2,
+        className: 'projectCard',
+        img: `${Brain}`,
+        heading: 'Project 2',
+        body: <p>A single page React website advertising an app that helps users manage their time in personal and work life. The app features a clean interface and helps users increase productivity. The website offers an overview of the app and a call to action to download it.</p>,
+        btnURL: 'http://www.timebnk.com.au/'
+    },
+    {
+        id: 3,
+        className: 'projectCard',
+        img: `${Code}`,
+        heading: 'Project 3',
+        body: <p>A single page React website advertising an app that helps users manage their time in personal and work life. The app features a clean interface and helps users increase productivity. The website offers an overview of the app and a call to action to download it.</p>,
+        btnURL: 'http://www.timebnk.com.au/'
     },
 ]

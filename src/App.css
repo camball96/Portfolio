@@ -1,5 +1,6 @@
 :root {
-  --purple: #474787;
+  --purple: #474787; 
+  --grey: #333333
 }
 
 
@@ -19,6 +20,22 @@
   
 }
 
+/* Project Page styling */
+.infoCardSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.projectCardSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 4%;
+}
 
 
 

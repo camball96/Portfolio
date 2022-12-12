@@ -40,6 +40,10 @@ video {
     margin-top: 0;
 }
 
+.headingIntroHome {
+    font-weight: 300;
+}
+
 @media only screen and (max-width: 600px) {
     .content {
         margin-top: -20%;

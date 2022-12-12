@@ -1,3 +1,10 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navLink {
     cursor: pointer;
     text-decoration: none;
@@ -5,6 +12,7 @@
     font-family: 'Poppins';
     font-size: 25px;
     margin: 0 3%;
+    transition: .5s;
 }
 
 .navLink:hover {

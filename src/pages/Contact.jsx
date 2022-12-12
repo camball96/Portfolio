@@ -7,7 +7,7 @@ import BodyContact from '../components/BodyContact/BodyContact';
 function Contact() {
     return (
         <div>
-            <Hero subHeading="Contact me!" bg={BG} />
+            <Hero subHeading="Contact me!" bg={BG} headingIntro='headingIntro' headingContent='headingContent' />
             <BodyContact />
         </div>
     )

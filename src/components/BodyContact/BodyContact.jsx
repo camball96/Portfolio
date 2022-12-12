@@ -3,7 +3,8 @@ import BioInfo from '../Bio/BioInfo'
 import Form from '../Form/Form'
 import './bodyContact.css'
 import ContactBG from "../../assets/contactBg.jpg"
-import { formHeadings } from "../../utils/Utils"
+import { aboutBody } from "../../utils/Utils"
+
 
 function BodyContact() {
 
@@ -21,8 +22,12 @@ function BodyContact() {
                 <img className='bcImage' src={ContactBG}></img>
             </div>
             <div className="infoRight">
-                <BioInfo aboutHeading= "Want to reach out?" aboutBody= "reach out here" cname = "cHeading" bname="subHeading"/>
+                <div className='bioInfo'>
+                <BioInfo aboutHeading= "Want to reach out?" aboutBody= {aboutBody} cname = "cHeading" bname="subHeading"/>
+                </div>
+                <div className='form'>
                 <Form />
+                </div>
             </div>
         </div>
     )

@@ -1,19 +1,67 @@
 
 
 .cardBox {
-    padding: 6%;
+    padding: 2%;
     margin: 0 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     color: black;
-    background-color: white;
+    box-shadow: 0px 0px 15px #3f3f3f;
+    background: white;
+    color: black;
     border-radius: 5px;
+    transition: .3s;
+    cursor: default;
+}
+
+.cardBox:hover {
+    transform: scale(1.08);
+
 }
 
 .cardImg {
     width: 120px;
     height: 120px;
 }
+
+.projectCard {
+    padding: 4%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black ;
+    background-color: var(--purple);
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+.projectCard a {
+    text-decoration: none;
+    margin-top: 3%;
+    padding: 2.5% 8% ;
+    background-color: white;
+    color: var(--purple);
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 30px;
+    border: solid 2px var(--purple);
+}
+
+.projectCard a:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px #000000;
+    background-color: var(--grey);
+    color: white;
+    border: solid 2px var(--grey);
+}
+
+
+
+
 
