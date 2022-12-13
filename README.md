@@ -1,5 +1,5 @@
 # Portfolio Site #
-This is a portfolio site built using React, showcasing the front end development skills of me, Cameron. It features some of the projects that I have worked on, along with information about myself and my contact details.<br><br>
+This is a portfolio site built using React, showcasing the front end development skills of me, Cameron. It features some of the projects that I have worked on, along with information about myself and my contact details.<br>
 ### This is still a work in progress with more features, pages and of course, a clean up to come ###
 
 # Getting Started #
