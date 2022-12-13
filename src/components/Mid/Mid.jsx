@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Card/Card'
+import Container from '../Container/Container'
 import { boxes } from "../../utils/Utils.js"
 
 
@@ -13,8 +14,8 @@ function createCard(x) {
 
 export default function Mid() {
     return (
-        <div className='mid'>
+        <Container className='mid'>
             {boxes.map(createCard)}
-        </div>
+        </Container>
     )
 }
