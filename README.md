@@ -4,11 +4,11 @@ This is a portfolio site built using React, showcasing the front end development
 # Getting Started #
 To run this project on your local machine, follow these steps:
 
-`Clone the repository:` 
+`Clone the repository:` <br>
 git clone https://github.com/camball96/portfolio-site.git
-`Install the dependencies:`
+`Install the dependencies:` <br>
 npm install
-`Start the development server:`
+`Start the development server:`<br>
 npm start
 The site will now be running on http://localhost:3000.
 
@@ -20,7 +20,7 @@ The site will now be running on http://localhost:3000.
 * Contact form for visitors to get in touch with me.
 
 # Technologies Used #
-*React for building the user interface
+* React for building the user interface
 
 # Contact #
-For any questions or inquiries, please contact [Your Name] at [Your Email].
+For any questions or inquiries, please contact Cam at <a href="mailto:cam.ball96@hotmail.com">cam.ball96@hotmail.com<a>.
