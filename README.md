@@ -5,9 +5,9 @@ This is a portfolio site built using React, showcasing the front end development
 To run this project on your local machine, follow these steps:
 
 `Clone the repository:` <br>
-git clone https://github.com/camball96/portfolio-site.git
+git clone https://github.com/camball96/portfolio-site.git <br>
 `Install the dependencies:` <br>
-npm install
+npm install<br>
 `Start the development server:`<br>
 npm start
 The site will now be running on http://localhost:3000.
