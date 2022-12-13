@@ -9,7 +9,7 @@ git clone https://github.com/camball96/portfolio-site.git <br>
 `Install the dependencies:` <br>
 npm install<br>
 `Start the development server:`<br>
-npm start
+npm start <br>
 The site will now be running on http://localhost:3000.
 
 # Features #
