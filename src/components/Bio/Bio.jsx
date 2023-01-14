@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import bioPic from "../../assets/bio.jpg";
+import bioPic from "../../assets/self.jpg";
 import "./bio.css";
 import { AboutHeading, AboutBody } from "../../utils/Utils";
 import BioInfo from "./BioInfo";

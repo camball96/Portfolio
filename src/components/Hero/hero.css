@@ -49,3 +49,12 @@ video {
         margin-top: -20%;
     }
 }
+@media only screen and (max-width: 1600px) {
+    .content {
+        margin-top: 0%;
+    }
+    .headingContent{
+        font-size: 70px;
+        font-weight: 600;
+    }
+}

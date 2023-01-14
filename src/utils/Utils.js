@@ -120,7 +120,7 @@ export const infoCardProjectsP = (
     improving my skills and enjoy tackling challenging projects that push me to
     grow as a developer. I am eager to continue building my expertise and to
     bring my knowledge and enthusiasm to a team of like-minded professionals.
-    Have a look below at what I have recently completed.
+    Have a look below at what I ma currently working on.
   </p>
 );
 
@@ -142,7 +142,7 @@ export const projectCard = [
       </p>
     ),
     bodyClass: "bodyClass",
-    btnURL: "https://browser.cameronball.com.au",
+    btnURL: "https://browser-homepage.cameronball.com.au",
     gitURL: "https://github.com/camball96/Browser-homepage",
   },
   {
@@ -175,8 +175,7 @@ export const projectCard = [
         their time effectively. The app features a clean and user-friendly
         interface, and designed to help users increase productivity in both
         personal and work life. The website provides an overview of the app's
-        features and benefits and calls to action to download it. It's an
-        ultimate solution to get organized, prioritize and balance your time.
+        features and benefits and calls to action to download it.
       </p>
     ),
     bodyClass: "bodyClass",

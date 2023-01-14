@@ -41,7 +41,10 @@ function Projects() {
           cardP={infoCardProjectsP}
         />
       </div>
-      <div className="projectCardSection">{projectCard.map(createCard)}</div>
+      <h2 className="projectHeading">Currently Working On</h2>
+      <div className="projectCardSection">
+        {projectCard.map(createCard)}
+      </div>
     </div>
   );
 }
