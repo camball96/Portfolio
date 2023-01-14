@@ -1,5 +1,5 @@
 import React from "react";
-import "./card.css";
+import "./ProjectCard.css";
 
 function Card(props) {
   return (
@@ -8,6 +8,9 @@ function Card(props) {
       <h2 className="cardHeading">{props.heading}</h2>
       <p>{props.body}</p>
       <div className="button-section">
+        <a href={props.gitURL} target="_blank" className="cardBtn">
+          Github
+        </a>
         <a href={props.btnURL} target="_blank" className="cardBtn">
           {props.btn}
         </a>

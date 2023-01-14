@@ -12,3 +12,14 @@
 .fText {
     font-weight: 300;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        padding: 2% 5%;
+    }}
+
+@media only screen and (max-width: 600px) {
+    .fText{
+        font-size: 14px;
+    }}

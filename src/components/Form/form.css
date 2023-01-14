@@ -61,3 +61,15 @@ button:hover {
     color: white;
     border: solid 2px var(--grey);
 }
+
+
+@media only screen and (max-width: 600px) {
+    .formContainer {
+        width: 100%;
+    }}
+
+@media only screen and (max-width: 600px) {
+    .form-label, .form-input, button {
+        width: 100%;
+}}
+

@@ -2,7 +2,7 @@ import React from "react";
 import BioInfo from "../Bio/BioInfo";
 import Form from "../Form/Form";
 import "./bodyContact.css";
-import ContactBG from "../../assets/contactBg.jpg";
+import ContactBG from "../../assets/mac.jpg";
 import { aboutBody } from "../../utils/Utils";
 import Container from "../Container/Container";
 
