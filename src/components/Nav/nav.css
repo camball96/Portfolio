@@ -21,3 +21,42 @@
     text-underline-offset: 8px;
     text-decoration-color: var(--purple)
 }
+
+.navigation {
+    display: flex;
+}
+.nav-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .nav-mobile {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        z-index: 5;
+    }
+    .navigation {
+        display: none;
+    }
+    .hamburger-icon {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+    .close-icon {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navLink {
+        padding-left: 6%;
+        font-size: 20px;
+    }
+}

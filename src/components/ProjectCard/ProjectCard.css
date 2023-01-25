@@ -58,20 +58,28 @@
 }
 
 /* Styling for Mobile */
-@media only screen and (max-width: 600px) {
+@media (max-width: 700px) {
     .cardBox {
         margin: 2% 0;
     }}
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 700px) {
     .projectCard {
         margin: 4% 0;
         box-shadow: 2px 2px 8px #000000;
-        
-    }}
+        height: auto;
+        padding: 4% 5%;
+    }
+    .projectImg {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 5%;
+    }
+}
 
 /* Styling for Laptop */
-@media only screen and (max-width: 1600px) {
+@media (max-width: 1600px) {
     .projectCard {
         width: 100%;
         height: 700px;

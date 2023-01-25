@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 :root {
   --purple: #474787; 
   --grey: #333333
 }
 
 
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .site {
@@ -46,7 +47,7 @@
   margin: 3% 0 -1% 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .infoCardSection {
     margin: 0;
     padding: 0;
@@ -56,14 +57,26 @@
     width: 100%;
   }}
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 700px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+  }
   .projectCardSection {
     flex-direction: column;
     background-color: var(--grey);
     padding: 5%;
-  }}
+  }
+  .projectHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
-  @media only screen and (max-width: 1600px) {
+  @media (max-width: 1600px) {
     .projectHeading {
         margin: 3% 0 0% 0;
     }

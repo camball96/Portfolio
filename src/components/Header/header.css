@@ -49,3 +49,22 @@ h1 {
 .logo {
     margin: 0 1%;
 }
+
+@media only screen and (max-width: 660px) {
+    .brand {
+        display: none;
+    }
+    .left {
+        display: none;
+    }
+    .middle {
+        width: 100%;
+    }
+
+    .navbar {
+        justify-content: start;
+    }
+    .logo {
+        margin: 0 6%;
+    }
+}
