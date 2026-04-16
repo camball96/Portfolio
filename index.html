@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cameron — Front-end Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="wrap">
+      <span class="nav-name">~/cameron.ball</span>
+      <ul class="nav-links">
+        <li><a href="#work">// work</a></li>
+        <li><a href="#skills">// skills</a></li>
+        <li><a href="#about">// about</a></li>
+        <li><a href="#contact">// contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="fade-in">
+        <p class="hero-eyebrow">$ whoami</p>
+        <h1 class="hero-name">Cameron</h1>
+        <div class="hero-role">
+          <span id="typed"></span><span class="cursor" id="cursor"></span>
+        </div>
+      </div>
+      <div class="fade-in" style="transition-delay: 0.1s">
+        <p class="hero-bio">
+          I write the code that makes things feel fast, look right, and hold
+          together under pressure. Tech lead at Athos Commerce by day —
+          building Relo, a full-stack product management app, by night. No
+          AI-generated code. No shortcuts. Just me, an IDE, and a slightly
+          unhealthy relationship with TypeScript.
+        </p>
+        <div class="divider"></div>
+        <div class="hero-links">
+          <a href="https://github.com" target="_blank" rel="noopener">github</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">linkedin</a>
+          <a href="mailto:cameron@email.com">email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <p class="sec-label">// work</p>
+      <div class="work-list">
+        <div class="work-item fade-in">
+          <div>
+            <p class="wi-name">Relo</p>
+            <p class="wi-date">2024 · Current</p>
+          </div>
+          <div>
+            <p class="wi-desc">
+              Full-stack customer &amp; product management app, built solo
+              from schema to UI. Vertical slice architecture, self-hosted on a
+              VPS via Docker. The kind of project where you learn what you
+              actually know.
+            </p>
+            <div class="wi-tags">
+              <span class="wtag">Next.js</span>
+              <span class="wtag">TypeScript</span>
+              <span class="wtag">PostgreSQL</span>
+              <span class="wtag">Prisma</span>
+              <span class="wtag">Zustand</span>
+              <span class="wtag">BetterAuth</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-item fade-in">
+          <div>
+            <p class="wi-name">Athos Commerce</p>
+            <p class="wi-date">Tech Lead · 3+ yrs</p>
+          </div>
+          <div>
+            <p class="wi-desc">
+              Led a distributed team of 5–7 engineers building ecommerce
+              search, merchandising and personalisation at scale. Reactive
+              component architecture, batched GraphQL data layers, and
+              script-tag rendering across major Shopify and BigCommerce
+              storefronts.
+            </p>
+            <div class="wi-tags">
+              <span class="wtag">Preact</span>
+              <span class="wtag">Sass</span>
+              <span class="wtag">MobX</span>
+              <span class="wtag">GraphQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-item fade-in">
+          <div>
+            <p class="wi-name">SBIM / WP Butler</p>
+            <p class="wi-date">Front End Developer · 2021–23</p>
+          </div>
+          <div>
+            <p class="wi-desc">
+              Custom WordPress builds for mid-sized businesses. Responsive
+              design, performance tuning, SEO. Third-party integrations across
+              Salesforce, Cloudflare, and New Relic.
+            </p>
+            <div class="wi-tags">
+              <span class="wtag">WordPress</span>
+              <span class="wtag">PHP</span>
+              <span class="wtag">Salesforce</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <p class="sec-label">// skills</p>
+      <div class="skills-grid">
+        <div class="skill-group fade-in">
+          <span class="sg-label">languages</span>
+          <div class="sg-pills">
+            <span class="spill">JavaScript</span>
+            <span class="spill">TypeScript</span>
+            <span class="spill">C</span>
+            <span class="spill">Python</span>
+            <span class="spill">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <span class="sg-label">frameworks</span>
+          <div class="sg-pills">
+            <span class="spill">React</span>
+            <span class="spill">Preact</span>
+            <span class="spill">Next.js</span>
+            <span class="spill">Vue.js</span>
+            <span class="spill">Angular</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <span class="sg-label">styling</span>
+          <div class="sg-pills">
+            <span class="spill">Sass/SCSS</span>
+            <span class="spill">Tailwind</span>
+            <span class="spill">CSS Modules</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <span class="sg-label">state</span>
+          <div class="sg-pills">
+            <span class="spill">MobX</span>
+            <span class="spill">Zustand</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <span class="sg-label">data &amp; apis</span>
+          <div class="sg-pills">
+            <span class="spill">GraphQL</span>
+            <span class="spill">REST</span>
+            <span class="spill">Prisma</span>
+            <span class="spill">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <span class="sg-label">tooling</span>
+          <div class="sg-pills">
+            <span class="spill">Docker</span>
+            <span class="spill">Git</span>
+            <span class="spill">Webpack</span>
+            <span class="spill">Babel</span>
+            <span class="spill">CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <span class="sg-label">platforms</span>
+          <div class="sg-pills">
+            <span class="spill">Shopify</span>
+            <span class="spill">BigCommerce</span>
+            <span class="spill">WordPress</span>
+            <span class="spill">Webflow</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <span class="sg-label">testing</span>
+          <div class="sg-pills">
+            <span class="spill">Cypress</span>
+            <span class="spill">Lighthouse</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <p class="sec-label">// about</p>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p>
+            I started out building WordPress sites, graduated to leading
+            distributed teams and shipping reactive, data-driven UIs across
+            storefronts at scale — GraphQL layers, state architecture, the
+            works — and somewhere along the way developed an obsession with
+            learning how things are built under the hood.
+          </p>
+
+          <p>
+            These days I lead a frontend team at Athos Commerce and build Relo
+            on the side — a full-stack app I'm deliberately writing without AI
+            assistance, because I think there's still value in actually
+            knowing what you're doing. When I'm not in a codebase, I'm
+            probably learning C, tinkering with embedded hardware, or
+            wondering why everything needs to be a React app.
+          </p>
+        </div>
+        <div class="about-meta fade-in" style="transition-delay: 0.1s">
+          <p class="am-label">Location</p>
+          <p class="am-val">Brisbane, AU</p>
+          <p class="am-label">Experience</p>
+          <p class="am-val">5+ years</p>
+          <p class="am-label">Currently</p>
+          <p class="am-val">Open to opportunities</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <p class="sec-label">// contact</p>
+      <div class="contact-grid">
+        <div class="fade-in">
+          <p class="ci-label">Email</p>
+          <a class="ci-val" href="mailto:cam.ball@hotmail.com">cam.ball@hotmail.com</a>
+        </div>
+        <div class="fade-in" style="transition-delay: 0.05s">
+          <p class="ci-label">GitHub</p>
+          <a class="ci-val" href="https://github.com/camball96" target="_blank" rel="noopener">github.com/camball96</a>
+        </div>
+        <div class="fade-in" style="transition-delay: 0.1s">
+          <p class="ci-label">LinkedIn</p>
+          <a class="ci-val" href="https://www.linkedin.com/in/cameron-ball-189166193/" target="_blank"
+            rel="noopener">linkedin.com/in/cameron-ball-189166193</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <span class="footer-txt">K · I · S · S - Simplicity is the key</span>
+      <span class="footer-txt">Brisbane, AU · 2025</span>
+    </div>
+  </footer>
+
+  <script>
+    // Typewriter
+    const text = "front-end developer";
+    const el = document.getElementById("typed");
+    const cursor = document.getElementById("cursor");
+    let i = 0;
+    const type = setInterval(() => {
+      el.textContent += text[i++];
+      if (i >= text.length) clearInterval(type);
+    }, 65);
+
+    // Scroll fade-in
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("visible");
+            observer.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 },
+    );
+
+    document.querySelectorAll(".fade-in").forEach((el) => {
+      observer.observe(el);
+    });
+
+    // Trigger hero fade-ins immediately
+    document.querySelectorAll(".hero .fade-in").forEach((el) => {
+      el.classList.add("visible");
+    });
+  </script>
+</body>
+
+</html>
